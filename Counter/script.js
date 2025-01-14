@@ -7,3 +7,6 @@ let count=0;
   }
  document.querySelector('#counter').innerHTML=`THE COUNT IS ${count}`;
 };
+document.addEventListener('DOMContentLoaded',()=>{
+  document.querySelector('button').onclick=countup;
+});
