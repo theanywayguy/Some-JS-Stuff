@@ -1,9 +1,10 @@
 function hello(){
-    if(document.querySelector('h1').innerHTML==="Hello, World!"){
-        document.querySelector('h1').innerHTML="Goodbye, World!";
+    const head= document.querySelector('h1');
+    if(head.innerHTML==="Hello, World!"){
+       head.innerHTML="Goodbye, World!";
     }
     else{
-        document.querySelector('h1').innerHTML="Hello, World!";
+       head.innerHTML="Hello, World!";
     }
  
 
