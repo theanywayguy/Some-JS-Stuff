@@ -9,4 +9,6 @@ let count=0;
 };
 document.addEventListener('DOMContentLoaded',()=>{
   document.querySelector('button').onclick=countup;
+
+  setInterval(countup,1000)
 });
